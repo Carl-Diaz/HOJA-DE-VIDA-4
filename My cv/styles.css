@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+
+.container {
+    display: flex;
+}
+
+.datos {
+    width: 19.3%;
+    background-color: darkslateblue;
+    margin-left: 300px;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+
+img {
+    margin-top: 20px;
+}
+
+.container .datos .iconos li {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.container .datos .iconos li i {
+    background-color: white;
+    color: midnightblue;
+    padding: 10px 5px 10px 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.container .datos ul li {
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+progress {
+    accent-color: white;
+    width: 30%;
+    align-items: end;
+    padding-left: 100px;
+}
+
+.container-habilidades {
+    display: flex;
+}
+
+.container-progreso {
+    display: flex;
+}
+
+.hobbies {
+    padding-bottom: 30px;
+}
+
+.hobbies li {
+    display: inline;
+    margin-left: 2px;
+    font-size: 30px;
+}
+
+.hobbies p {
+    display: inline;
+    margin-left: 17px;
+}
+
+.perfil {
+    width: 70%;
+    background-color: azure;
+    margin-right: 300px;
+    padding: 0px 10px 0px 20px;
+}
+
+.primer-nombre {
+    padding: 45px 0px 0px 80px;
+    color: darkslateblue;
+    font-size: 50px;
+}
+
+.apellido {
+    font-size: 80px;
+    padding-left: 80px;
+}
+
+h4 {
+    color: darkslateblue;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+
+.info {
+    background-color: darkslateblue;
+    padding: 10px 0px 10px 5px;
+    color: white;
+    border-radius: 15px;
+    width: 47%;
+    margin: 20px 0px 20px 0px;
+    box-shadow: 3px 3px gray;
+
+}
+
+.edu {
+    background-color: darkslateblue;
+    padding: 10px 0px 10px 5px;
+    color: white;
+    border-radius: 15px;
+    width: 24%;
+    margin: 20px 0px 20px 0px;
+    box-shadow: 3px 3px gray;
+}
+
+.exp {
+    background-color: darkslateblue;
+    padding: 10px 0px 10px 5px;
+    color: white;
+    border-radius: 15px;
+    width: 25%;
+    margin: 20px 0px 20px 0px;
+    box-shadow: 3px 3px gray;
+}
+
+.educacion-p {
+    display: flex;
+}
+
+.primaria {
+    margin-left: 100px;
+    margin-bottom: 60px;
+}
+
+.primaria ul li {
+    list-style: none;
+}
+
+.educacion-s {
+    display: flex;
+}
+
+.secundaria {
+    margin-left: 100px;
+    margin-bottom: 60px;
+}
+
+.secundaria ul li {
+    list-style: none;
+}
+
+.sena {
+    display: flex;
+}
+
+.tecnico {
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+.tecnico ul li {
+    list-style: none;
+}
+
+.experiencia {
+    display: flex;
+}
+
+.konecta {
+    margin-left: 62px;
+}
+
+.konecta ul li {
+    list-style: none;
+}
